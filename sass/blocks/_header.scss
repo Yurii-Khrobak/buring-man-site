@@ -1,0 +1,59 @@
+.header {
+	color: $white;
+	font-family: "Anton";
+}
+
+.navigation__row {
+	display: flex;
+	padding-top: 70px;
+	align-items: center;
+	justify-content: space-between;
+
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.nav ul {
+	display: flex;
+	column-gap: 40px;
+	margin-left: -400px;
+}
+
+.phone {
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.phone a {
+	justify-content: end;
+}
+
+.hero {
+	margin-top: 15%;
+}
+
+.hero-slogan {
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.hero-heading {
+	font-size: 100px;
+	line-height: 151px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	margin-bottom: 20px;
+}
+
+.hero-btn {
+	font-size: 17px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}

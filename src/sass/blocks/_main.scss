@@ -1,0 +1,49 @@
+.main {
+	color: $black;
+	font-family: "Anton";
+
+	margin-top: 435px;
+}
+
+.main__title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 75px;
+	text-transform: uppercase;
+
+	margin-bottom: 60px;
+}
+
+.about__row {
+	display: flex;
+	column-gap: 35px;
+}
+
+.adout__text {
+	max-width: 565px;
+}
+
+.about__text--title {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	text-transform: uppercase;
+
+	margin-bottom: 20px;
+}
+
+.about__text--main {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	font-family: "Open Sans";
+
+	align-items: stretch;
+}
+
+.about__img {
+	display: flex;
+	column-gap: 30px;
+	margin-top: 65px;
+}
